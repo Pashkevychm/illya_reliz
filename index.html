@@ -1,207 +1,54 @@
-body {
-  /* Frame 1 */
-
-position: relative;
-width: 960px;
-height: 1382px;
-
-background: #C4E9E7;
-
-}
-
-header{
-    /* header */
-
-
-width: 960px;
-height: 105px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: #C4E9E7;
-
-}
-.button{
-  /* header button */
-
-/* header button */
-
-background: #A6E5EE;
-border-radius: 10px;
-
-/* Знижки */
-
-margin-left: 400px;
-
-width: 119px;
-height: 40px;
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-color: #000000;
-
-
-}
-a{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-nav{
-  /* Знижки */
-
-/* Frame 2 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 10px;
-gap: 58px;
-
-justify-content: space-around;
-/* navigation link 3 */
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-color: #000000;
-width: 960px;
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-border-top: 5px solid #7DE6F2;
-border-bottom: 5px solid #7DE6F2;
-}
-h1{
-  /* Основной заголовок */
-
-padding: 40px;
-
-left: calc(50% - 443px/2 - 0.5px);
-top: 250px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-text-align: center;
-
-color: #424040;
-
-
-
-}
-article{
-  /* article 1 */
-
-width: 400px;
-height: 500px;
-
-
-background: #F8FEFF;
-margin: 30px;
-
-}
-h2{
-  /* article h2 1 */
-
-
-width: 315px;
-height: 30px;
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-color: #000000;
-text-align: center;
-
-
-}
-.info{
-  display: flex;
-  flex-wrap: wrap;
-}
-p{
-  /* article text 1 */
-margin-left: 30px;
-
-width: 300px;
-height: 30px;
-text-align:center;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #000000;
-
-
-}
-.article-but{
-  /* article button 2 */
-/* article button text 2 */
-
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-margin-left: 110px;
-
-width: 300px;
-height: 50px;
-padding: 10px 40px 10px 40px;
-
-color: #000000;
-background-color: #95E8F4;
-}
-footer p{
-  /* Привіт мене звати Ілля! Це мій перший професійний сайт. Я створив цей сайт, бо дуже люблю техніку. */
-
-width: 520px;
-height: 145px;
-padding-left: 200px;
-
-font-family: 'Padyakke Expanded One';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-
-
-}
-footer{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-
-}
+<html>
+    <head>
+        <title>BitMarket</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="/uploads/2021/02/logo_0_1613588860.svg">
+            <a class="button" href="">Знижки</a>
+        </header>
+        <nav>
+            <a class="nav-link" href=""><b>Каталог</b></a>
+            <a class="nav-link" href="">Оптом</a>
+            <a class="nav-link" href="">Доставка</a>
+            <a class="nav-link" href="">Повернення товару</a>
+        </nav>
+        <main>
+            <h1>Професіонали радять</h1>
+            <section class="info">
+                <article>
+                    <h2>Лептоп для відпочинку</h2>
+                    <img src="https://learn.logikaschool.com/uploads/student/3127381/686d0d6e61b3a.jpg" width="400px" height="300px"/>
+                    <p>Samsung V145-S</p>
+                    <a class="article-but" href="">Детальніше</a>
+                </article>
+                <article>
+                    <h2>Як вибрати навушники</h2>
+                    <img src="https://learn.logikaschool.com/uploads/student/3127381/686d0e0abf71d.jpg" width="330px" height="300px"/>
+                    <p>Поговоримо про новинки</p>
+                    <a class="article-but" href="">Детальніше</a>
+                </article>
+                <article>
+                    <h2>Телефон мрії</h2>
+                    <img src="https://learn.logikaschool.com/uploads/student/3127381/686d0d9fd9941.jpg" width="400px" height="300px"/>
+                    <p>Apple iphone 13</p>
+                    <a class="article-but" href="">Детальніше</a>
+                </article>
+                <article>
+                    <h2>Техніка для всього</h2>
+                    <img src="https://learn.logikaschool.com/uploads/student/3127381/686d0db9e3169.jpg" width="400px" height="300px"/>
+                    <p>І цілого світу мало...</p>
+                    <a class="article-but" href="">Детальніше</a>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <a href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="80px" height="80px"></a>
+            <a href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="80px" height="80px"></a> 
+            <p><b>Привіт мене звати Ілля! <br/> 
+Це мій перший професійний сайт.  <br/> 
+Я створив цей сайт, бо дуже люблю техніку.</b></p>
+        </footer>
+    </body>
+</html>
